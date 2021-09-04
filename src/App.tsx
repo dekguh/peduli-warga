@@ -1,10 +1,9 @@
 import React from 'react';
+import Routing from './components/utils/Routing';
 
 function App() {
   return (
-    <div className="App">
-      <div className='p-4'>tes</div>
-    </div>
+    <Routing />
   );
 }
 
