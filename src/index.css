@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@layer base {
+  body {
+    @apply font-Roboto text-gray-600;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-navy font-bold leading-tight;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .top-unset {
+      top: unset;
+    }
+
+    .bottom-unset {
+      bottom: unset;
+    }
+
+    .right-unset {
+      right: unset;
+    }
+
+    .left-unset {
+      right: unset;
+    }
+  }
+}
