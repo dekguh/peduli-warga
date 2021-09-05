@@ -12,6 +12,28 @@ module.exports = {
       },
       transitionDuration: {
         '0': '0ms'
+      },
+      maxWidth: {
+        '550px': '550px'
+      },
+      minWidth: {
+        '120px': '120px'
+      },
+      boxShadow: {
+        primary: '0 0 8px rgba(0, 0, 0, 0.07)'
+      },
+      borderRadius: {
+        '4px': '4px'
+      },
+      keyframes: {
+        slowBounce: {
+          '0%': { transform : 'translateY(0)' },
+          '50%': { transform : 'translateY(15%)' },
+          '100%': { transform : 'translateY(0)' },
+        }
+      },
+      animation: {
+        slowbounce: 'slowBounce 2s infinite linear'
       }
     },
   },
