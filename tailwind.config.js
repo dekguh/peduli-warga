@@ -34,7 +34,10 @@ module.exports = {
       },
       animation: {
         slowbounce: 'slowBounce 2s infinite linear'
-      }
+      },
+      backgroundImage: theme => ({
+        'line-small-pattern': "url('/src/images/line-small-pattern.png')"
+      })
     },
   },
   variants: {
