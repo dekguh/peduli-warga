@@ -18,6 +18,10 @@
   h6 {
     @apply text-navy font-bold leading-tight;
   }
+
+  .leaflet-popup-content p {
+    margin: 0 0 !important;
+  }
 }
 
 @layer utilities {

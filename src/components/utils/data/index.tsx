@@ -15,6 +15,14 @@ export type IDataMenuNav = Array<{
     active: boolean;
 }>
 
+export type IDataDonationLocation = Array<{
+    id: number;
+    lang: number;
+    long: number;
+    organization: string;
+    description: string;
+}>
+
 export const webInfo: IWebInfo = {
     title: 'Peduli Warga',
     phone: '(0361) 123456',
@@ -51,5 +59,36 @@ export const dataMenuNav: IDataMenuNav = [
         text: 'Kontak Kami',
         url: '#',
         active: false,
+    }
+]
+
+export const dataDonationLocation: IDataDonationLocation = [
+    {
+        id: 1,
+        lang: -8.792710,
+        long: 115.214958,
+        organization: 'Yayasan Kasih',
+        description: 'tempat pembagian sembako berlokasi di jalan bypass ngurah rai nusa dua'
+    },
+    {
+        id: 2,
+        lang: -8.783408,
+        long: 115.166612,
+        organization: 'Yayasan Kasih',
+        description: 'tempat pembagian sembako berlokasi di jalan uluwatu jimbaran'
+    },
+    {
+        id: 3,
+        lang: -8.716160,
+        long: 115.210952,
+        organization: 'Yayasan Kasih',
+        description: 'tempat pembagian sembako berlokasi di jalan uluwatu jimbaran'
+    },
+    {
+        id: 4,
+        lang: -8.704907,
+        long: 115.183811,
+        organization: 'Yayasan Kasih',
+        description: 'tempat pembagian sembako berlokasi di jalan imam bonjol'
     }
 ]
