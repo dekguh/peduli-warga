@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../../organisms/About'
 import Donation from '../../organisms/Donation'
 import HomeHero from '../../organisms/HomeHero'
 import MenuNav from '../../organisms/MenuNav'
@@ -9,6 +10,7 @@ const HomePage: React.FC = () => {
         <>
             <MenuNav />
             <HomeHero />
+            <About />
             <StepProkes />
             <Donation />
         </>

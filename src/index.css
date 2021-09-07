@@ -24,6 +24,17 @@
   }
 }
 
+@layer components {
+  .button-primary {
+    @apply bg-blue-500 hover:bg-blue-600;
+    @apply duration-300;
+    @apply py-4 px-6;
+    @apply text-white;
+    @apply rounded-sm;
+    @apply inline-block;
+  }
+}
+
 @layer utilities {
   @variants responsive {
     .top-unset {

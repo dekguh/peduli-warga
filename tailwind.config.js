@@ -14,7 +14,8 @@ module.exports = {
         '0': '0ms'
       },
       maxWidth: {
-        '550px': '550px'
+        '550px': '550px',
+        '350px': '350px'
       },
       minWidth: {
         '120px': '120px'
@@ -28,15 +29,23 @@ module.exports = {
       keyframes: {
         slowBounce: {
           '0%': { transform : 'translateY(0)' },
-          '50%': { transform : 'translateY(15%)' },
+          '50%': { transform : 'translateY(10%)' },
           '100%': { transform : 'translateY(0)' },
+        },
+        slowXBounce: {
+          '0%': { transform : 'translateX(0)' },
+          '50%': { transform : 'translateX(3%)' },
+          '100%': { transform : 'translateX(0)' },
         }
       },
       animation: {
-        slowbounce: 'slowBounce 2s infinite linear'
+        slowbounce: 'slowBounce 3s infinite linear',
+        'slow-x-bounce': 'slowXBounce 3s infinite linear',
       },
       backgroundImage: theme => ({
-        'line-small-pattern': "url('/src/images/line-small-pattern.png')"
+        'line-small-pattern': "url('/src/images/line-small-pattern.png')",
+        'about-image-1': "url('/src/images/medical-appointment-doctor-healthcare-40568.jpeg')",
+        'about-image-2': "url('/src/images/pexels-anna-shvets-4225920.jpg')",
       })
     },
   },
