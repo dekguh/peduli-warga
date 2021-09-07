@@ -5,7 +5,7 @@ import StepLine from '../../molecules/StepProkes/StepLine'
 
 const StepProkes = () => {
     return (
-        <div className='container mx-auto mt-20'>
+        <div className='container mx-auto'>
             <TitleSection
                 subtitle='Ikuti 3 Tahap'
                 title='Protokol Kesehatan'

@@ -7,17 +7,17 @@ const StepLine: React.FC = () => {
             <div className='flex flex-row flex-nowrap'>
                 <div className='flex-grow-0 flex-shrink w-4/12 text-center'>
                     <h6>Step 1</h6>
-                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4' />
+                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4 hover:scale-110 duration-300 cursor-pointer' />
                 </div>
 
                 <div className='flex-grow-0 flex-shrink w-4/12 text-center'>
                     <h6>Step 2</h6>
-                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4' />
+                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4 hover:scale-110 duration-300 cursor-pointer' />
                 </div>
 
                 <div className='flex-grow-0 flex-shrink w-4/12 text-center'>
                     <h6>Step 3</h6>
-                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4' />
+                    <img src={IconDotted} alt='icon' className='mx-auto mt-1 relative -bottom-0 transform translate-y-2/4 hover:scale-110 duration-300 cursor-pointer' />
                 </div>
             </div>
 

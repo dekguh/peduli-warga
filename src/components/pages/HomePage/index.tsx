@@ -10,9 +10,17 @@ const HomePage: React.FC = () => {
         <>
             <MenuNav />
             <HomeHero />
-            <About />
-            <StepProkes />
-            <Donation />
+            <div className='bg-blue-100 py-20 mt-20'>
+                <About />
+            </div>
+
+            <div className='mt-20'>
+                <StepProkes />
+            </div>
+
+            <div className='mt-20'>
+                <Donation />
+            </div>
         </>
     )
 }
