@@ -23,6 +23,11 @@ export type IDataDonationLocation = Array<{
     description: string;
 }>
 
+export type TDataQuickLink = Array<{
+    text: string;
+    url: string;
+}>
+
 export const webInfo: IWebInfo = {
     title: 'Peduli Warga',
     phone: '(0361) 123456',
@@ -41,7 +46,7 @@ export const dataMenuNav: IDataMenuNav = [
         active: false,
     },
     {
-        text: 'Tentang Kami',
+        text: 'Cek Covid',
         url: '#',
         active: false,
     },
@@ -90,5 +95,20 @@ export const dataDonationLocation: IDataDonationLocation = [
         long: 115.183811,
         organization: 'Yayasan Kasih',
         description: 'tempat pembagian sembako berlokasi di jalan imam bonjol'
+    }
+]
+
+export const dataQuickLink: TDataQuickLink = [
+    {
+        text: 'Tes Covid',
+        url: '#'
+    },
+    {
+        text: 'Donasi',
+        url: '#'
+    },
+    {
+        text: 'Vaksinasi',
+        url: '#'
     }
 ]

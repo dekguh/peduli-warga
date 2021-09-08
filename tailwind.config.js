@@ -53,6 +53,7 @@ module.exports = {
   variants: {
     extend: {
       padding: ['last'],
+      margin: ['last'],
       borderWidth: ['last']
     },
   },
