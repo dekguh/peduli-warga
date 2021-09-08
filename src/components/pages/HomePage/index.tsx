@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../../organisms/About'
+import Ambulance from '../../organisms/Ambulance'
 import Donation from '../../organisms/Donation'
 import HomeHero from '../../organisms/HomeHero'
 import MenuNav from '../../organisms/MenuNav'
@@ -16,6 +17,10 @@ const HomePage: React.FC = () => {
 
             <div className='mt-20'>
                 <StepProkes />
+            </div>
+
+            <div className='mt-20'>
+                <Ambulance />
             </div>
 
             <div className='mt-20'>

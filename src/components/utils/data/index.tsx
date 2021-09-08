@@ -46,7 +46,7 @@ export const dataMenuNav: IDataMenuNav = [
         active: false,
     },
     {
-        text: 'Dokter',
+        text: 'Vaksinasi',
         url: '#',
         active: false,
     },

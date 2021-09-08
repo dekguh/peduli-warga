@@ -3,7 +3,6 @@ import ServiceBoxSmall from '../../atomics/box/ServiceBoxSmall'
 import IconPemeriksaan from '../../../images/icon/service/pemeriksaan.svg'
 import IconDonasi from '../../../images/icon/service/donasi.svg'
 import IconVaksinasi from '../../../images/icon/service/vaksinasi.svg'
-import IconKonsultasi from '../../../images/icon/service/konsultasi.svg'
 
 const DetailContent: React.FC = () => {
     return (
@@ -14,9 +13,9 @@ const DetailContent: React.FC = () => {
             <ul className='flex flex-col sm:flex-row flex-wrap lg:flex-nowrap items-stretch last:pr-0'>
                 <li className='flex-grow md:flex-grow-0 flex-shrink px-5 md:px-0 md:pr-5 sm:w-6/12 md:w-3/12 mb-5 md:mb-0'>
                     <ServiceBoxSmall
-                        title='Pemeriksaan'
+                        title='Tes Covid'
                         url='#'
-                        alt='icon pemeriksaan'
+                        alt='icon tes covid'
                         src={IconPemeriksaan}
                     />
                 </li>
@@ -36,15 +35,6 @@ const DetailContent: React.FC = () => {
                         url='#'
                         alt='icon vaksinasi'
                         src={IconVaksinasi}
-                    />
-                </li>
-
-                <li className='flex-grow md:flex-grow-0 flex-shrink px-5 md:px-0 md:pr-5 sm:w-6/12 md:w-3/12 mb-5 md:mb-0'>
-                    <ServiceBoxSmall
-                        title='Konsultasi'
-                        url='#'
-                        alt='icon konsultasi'
-                        src={IconKonsultasi}
                     />
                 </li>
             </ul>

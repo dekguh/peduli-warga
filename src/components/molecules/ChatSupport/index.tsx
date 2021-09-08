@@ -15,8 +15,8 @@ const ChatSupport: React.FC<Props> = ({ email }) => {
             </div>
 
             <div className='flex-grow-0 flex-shrink'>
-                <h6 className='mb-0'>Have a question?</h6>
-                <span>message to {email}</span>
+                <h6 className='mb-0'>Memiliki pertanyaan?</h6>
+                <span>kirim pesan ke {email}</span>
             </div>
         </div>
     )

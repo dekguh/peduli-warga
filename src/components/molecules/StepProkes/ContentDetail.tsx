@@ -7,7 +7,7 @@ import IconKerumunan from '../../../images/icon/prokes/kerumunan.svg'
 const ContentDetail: React.FC = () => {
     return (
         <div className='flex flex-col lg:flex-row flex-nowrap'>
-            <div className='flex-grow lg:flex-grow-0 flex-shrink py-8 px-5 w-full lg:w-4/12'>
+            <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconMasker}
                     alt='icon masker'
@@ -16,7 +16,7 @@ const ContentDetail: React.FC = () => {
                 />
             </div>
 
-            <div className='flex-grow lg:flex-grow-0 flex-shrink py-8 px-5 w-full lg:w-4/12'>
+            <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconCuciTangan}
                     alt='icon cuci tangan'
@@ -25,7 +25,7 @@ const ContentDetail: React.FC = () => {
                 />
             </div>
 
-            <div className='flex-grow lg:flex-grow-0 flex-shrink py-8 px-5 w-full lg:w-4/12'>
+            <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconKerumunan}
                     alt='icon kerumunan'

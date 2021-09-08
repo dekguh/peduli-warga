@@ -14,8 +14,8 @@ const ContentDetail: React.FC = () => {
             />
 
             <p>
-                Kami merupakan platform untuk kemanusiaan yang berdiri sejak tahun 2020, dengan berbagai fitur seperti konsultasi, 
-                donasi, vaksinasi, dan pemeriksaan. diharapkan dengan adanya platform ini akan banyak membantu.
+                Kami merupakan platform untuk kemanusiaan yang berdiri sejak tahun 2020, dengan fitur temukan lokasi tes covid, donasi dan vaksinasi. 
+                diharapkan dengan adanya platform ini akan banyak membantu warga.
             </p>
 
             <div className='mt-5'>

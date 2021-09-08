@@ -44,6 +44,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'line-small-pattern': "url('/src/images/line-small-pattern.png')",
+        'line-long-pattern': "url('/src/images/line-long-pattern.png')",
         'about-image-1': "url('/src/images/medical-appointment-doctor-healthcare-40568.jpeg')",
         'about-image-2': "url('/src/images/pexels-anna-shvets-4225920.jpg')",
       })
@@ -51,7 +52,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      padding: ['last']
+      padding: ['last'],
+      borderWidth: ['last']
     },
   },
   plugins: [],

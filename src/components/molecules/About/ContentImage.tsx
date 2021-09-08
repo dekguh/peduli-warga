@@ -18,7 +18,7 @@ const ContentImage: React.FC = () => {
                 <div className='bg-no-repeat bg-cover bg-center bg-about-image-2 w-full h-96 rounded-md'></div>
             </div>
 
-            <div className='absolute -right-5 bottom-14 z-10 animate-slowbounce'>
+            <div className='absolute right-24 md:-right-5 -bottom-6 md:bottom-14 z-10 animate-slowbounce'>
                 <BoxFounder
                     src={PhotoFounder}
                     name='Frilia Wulansari'
