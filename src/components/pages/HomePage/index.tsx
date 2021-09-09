@@ -4,13 +4,17 @@ import Ambulance from '../../organisms/Ambulance'
 import Donation from '../../organisms/Donation'
 import Footer from '../../organisms/Footer'
 import HomeHero from '../../organisms/HomeHero'
-import MenuNav from '../../organisms/MenuNav'
 import StepProkes from '../../organisms/StepProkes'
+import { Helmet } from 'react-helmet'
+import { webInfo } from '../../utils/data'
 
 const HomePage: React.FC = () => {
     return (
         <>
-            <MenuNav />
+            <Helmet>
+                <title>{webInfo.title} - beranda</title>
+            </Helmet>
+
             <HomeHero />
             <div className='bg-blue-100 py-20 mt-20'>
                 <About />
@@ -26,10 +30,6 @@ const HomePage: React.FC = () => {
 
             <div className='mt-20'>
                 <Donation />
-            </div>
-
-            <div className='mt-20'>
-                <Footer />
             </div>
         </>
     )

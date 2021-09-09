@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NavItem from '../../atomics/NavList/NavItem'
 import { dataMenuNav } from '../../utils/data'
 import NavLogo from '../../../images/logo-dark.png'
+import { useLocation } from 'react-router'
 
 interface Props {
     openStatus: boolean;
@@ -10,6 +11,7 @@ interface Props {
 
 const NavList: React.FC<Props> = ({ openStatus, handleOpenClick }) => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
+    const RouteLocation = useLocation()
 
     useEffect(() => {
         setIsOpen(openStatus)
@@ -32,7 +34,7 @@ const NavList: React.FC<Props> = ({ openStatus, handleOpenClick }) => {
                         <NavItem
                             text={data.text}
                             url={data.url}
-                            active={data.active}
+                            active={RouteLocation.pathname === data.url}
                         />
                     </li>
                 ))}

@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleSection from '../../atomics/text/TitleSection'
 import { FiPhoneCall } from 'react-icons/fi'
+import { webInfo } from '../../utils/data'
 
 const ContentDetail = () => {
     return (
@@ -26,7 +27,7 @@ const ContentDetail = () => {
 
                     <div className='flex-grow flex-shrink pr-5'>
                         <span>Hubungi Kami</span>
-                        <h5 className='text-2xl font-bold text-black-800'>+62 123-456-7890</h5>
+                        <h5 className='text-2xl font-bold text-black-800'>{webInfo.phoneAmbulance}</h5>
                     </div>
 
                     <div className='flex-grow pt-3 md:pt-0 md:flex-grow-0 w-full md:w-auto flex-shrink pr-5'>

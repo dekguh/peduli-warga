@@ -9,7 +9,7 @@ interface Props {
 const NavItem: React.FC<Props> = ({ text, url, active }) => {
     return (
         <div>
-            <a href={url} className={`text-gray-600 hover:text-blue-500`}>
+            <a href={url} className={active ? 'text-blue-500' : `text-gray-600 hover:text-blue-500`}>
                 {text}
             </a>
         </div>

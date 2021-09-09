@@ -1,17 +1,20 @@
 export type IWebInfo = {
     title: string;
     phone: string;
+    phoneAmbulance: string;
     email: string;
     facebook: string;
     twitter: string;
     instagram: string;
     openDay: string;
     openTime: string;
+    location: string;
 }
 
 export type IDataMenuNav = Array<{
     text: string;
     url: string;
+    path: string;
     active: boolean;
 }>
 
@@ -31,38 +34,45 @@ export type TDataQuickLink = Array<{
 export const webInfo: IWebInfo = {
     title: 'Peduli Warga',
     phone: '(0361) 123456',
+    phoneAmbulance: '+62 123-456-7890',
     email: 'service@dekguh.com',
     facebook: 'https://www.facebook.com',
     twitter: 'https://www.twitter.com',
     instagram: 'https://www.instagram.com',
     openDay: 'Senin - Minggu',
-    openTime: '08.00 Wita - 12.00 Wita'
+    openTime: '08.00 Wita - 12.00 Wita',
+    location: 'Nusa Dua, Bali'
 }
 
 export const dataMenuNav: IDataMenuNav = [
     {
         text: 'Beranda',
-        url: '#',
+        url: '/',
+        path: '/',
         active: false,
     },
     {
         text: 'Cek Covid',
-        url: '#',
+        url: '/cek-covid',
+        path: 'cek-covid',
         active: false,
     },
     {
         text: 'Vaksinasi',
-        url: '#',
+        url: '/vaksinasi',
+        path: 'vaksinasi',
         active: false,
     },
     {
         text: 'Donasi',
-        url: '#',
+        url: '/donasi',
+        path: 'donasi',
         active: false,
     },
     {
         text: 'Kontak Kami',
-        url: '#',
+        url: '/kontak',
+        path: 'kontak',
         active: false,
     }
 ]
