@@ -1,6 +1,6 @@
-import React, { ReactNode } from 'react'
+import React, { ReactElement, ReactNode } from 'react'
 import L, { LatLngExpression } from 'leaflet'
-import { MapContainer, TileLayer } from 'react-leaflet'
+import { MapConsumerProps, MapContainer, TileLayer } from 'react-leaflet'
 
 /**
  * @interface Props

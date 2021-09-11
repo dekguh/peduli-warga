@@ -1,0 +1,640 @@
+[
+    {
+        "data":{
+            "province": "Aceh",
+            "district": [
+                "Langsa",
+                "Lhokseumawe",
+                "Sabang",
+                "Banda Aceh",
+                "Bener Meriah",
+                "Aceh Tamiang",
+                "Nagan Jaya",
+                "Aceh Jaya",
+                "Gayo Lues",
+                "Aceh Barat Daya",
+                "Bireun",
+                "Aceh Singkil",
+                "Simeulue",
+                "Aceh Utara",
+                "Pidie",
+                "Aceh Besar",
+                "Aceh Barat",
+                "Tengah",
+                "Aceh Timur",
+                "Aceh Tenggara",
+                "Aceh Selatan"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sumatera Utara",
+            "district": [
+                "Padang Sidempuan",
+                "Tebing Tinggi",
+                "Binjai",
+                "Tanjung Balai",
+                "Sibolga",
+                "Pematang Siantar",
+                "Medan",
+                "Serdang Bedagai ",
+                "Samosir ",
+                "Humbang Hasundutan",
+                "Pakpak Barat",
+                "Nias Selatan",
+                "Mandailing Natal",
+                "Toba Samosir",
+                "Dairi",
+                "Labuhan Batu",
+                "Asahan",
+                "Simalungun",
+                "Deli Serdang",
+                "Karo",
+                "Langkat",
+                "Nias",
+                "Tapanuli Selatan",
+                "Tapanuli Utara",
+                "Tapanuli Tengah"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sumatera Barat",
+            "district": [
+                "Pariaman",
+                "Payakumbuh",
+                "Bukittinggi",
+                "Padang Panjang",
+                "Sawhlunto",
+                "Solok",
+                "Padang",
+                "Pasaman Barat ",
+                "Solok Selatan ",
+                "Dharmasraya",
+                "Kepulauan Mentawai",
+                "Pasaman ",
+                "Lima Puluh Kota",
+                "Agam",
+                "Padang Pariaman",
+                "Tanah Datar",
+                "Sw.lunto",
+                "Solok",
+                "Pesisir Selatan"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Riau",
+            "district": [
+                "Dumai",
+                "Pekan Baru",
+                "Kuantan Singingi",
+                "Siak",
+                "Rokan Hilir",
+                "Rokan Hulu",
+                "Pelalawan",
+                "Indragiri Hilir",
+                "Bengkalis",
+                "Indragiri Hulu",
+                "Kampar"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sumatera Selatan",
+            "district": [
+                "Prabumulih",
+                "Lubuk Linggau",
+                "Pagar Alam",
+                "Palembang",
+                "Ogan Ilir ",
+                "Oku Selatan ",
+                "Oku Timur ",
+                "Banyuasin",
+                "Musi Banyuasin",
+                "Musi Rawas",
+                "Lahat",
+                "Muara Enim",
+                "Ogan Komering Ilir",
+                "Ogan Komering Ulu"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Bengkulu",
+            "district": [
+                "Bengkulu",
+                "Kepahiang ",
+                "Lebong ",
+                "Muko Muko",
+                "Seluma",
+                "Kaur",
+                "Bengkulu Utara",
+                "Rejang Lebong ",
+                "Bengkulu Selatan"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Lampung",
+            "district": [
+                "Metro",
+                "Bandar Lampung",
+                "Way Kanan",
+                "Lampung Timur",
+                "Tanggamus",
+                "Tulang Bawang",
+                "Lampung Barat",
+                "Lampung Utara",
+                "Lampung Tengah",
+                "Lampung Selatan"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kepulauan Riau",
+            "district": [
+                "Tanjung Pinang",
+                "Batam",
+                "Lingga ",
+                "Natuna",
+                "Karimun",
+                "Kepulauan Riau"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kepulauan Bangka Belitung",
+            "district": [
+                "Pangkal Pinang",
+                "Bangka Timur",
+                "Bangka Barat",
+                "Bangka Tengah",
+                "Bangka Selatan",
+                "Belitung",
+                "Bangka"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "DKI Jakarta",
+            "district": [
+                "Jakarta Timur",
+                "Jakarta Selatan",
+                "Jakarta Barat",
+                "Jakarta Utara",
+                "Jakarta Pusat",
+                "Kepulauan Seribu"
+            ]
+        }
+    },
+    {
+        "data":{
+            "province": "Jawa Barat",
+            "district": [
+                "Banjar",
+                "Tasikmalaya",
+                "Cimahi",
+                "Depok",
+                "Bekasi",
+                "Cirebon",
+                "Bandung",
+                "Sukabumi",
+                "Bogor",
+                "Bekasi",
+                "Karawang",
+                "Purwakarta",
+                "Subang",
+                "Indramayu",
+                "Sumedang",
+                "Majalengka",
+                "Cirebon",
+                "Kuningan",
+                "Ciamis",
+                "Tasikmalaya",
+                "Garut",
+                "Bandung",
+                "Cianjur",
+                "Sukabumi",
+                "Bogor"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Jawa Tengah",
+            "district": [
+                "Tegal",
+                "Pekalongan",
+                "Semarang",
+                "Salatiga",
+                "Surakarta",
+                "Magelang",
+                "Brebes",
+                "Tegal",
+                "Pemalang",
+                "Pekalongan",
+                "Batang",
+                "Kendal",
+                "Temanggung",
+                "Semarang",
+                "Demak",
+                "Jepara",
+                "Kudus",
+                "Pati",
+                "Rembang",
+                "Blora",
+                "Grobogan",
+                "Sragen",
+                "Karanganyar",
+                "Wonogiri",
+                "Sukoharjo",
+                "Klaten",
+                "Boyolali",
+                "Magelang",
+                "Wonosobo",
+                "Purworejo",
+                "Kebumen",
+                "Banjarnegara",
+                "Purbalingga",
+                "Banyumas",
+                "Cilacap"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Jogjakarta",
+            "district": [
+                "Yogyakarta",
+                "Sleman",
+                "Gunung Kidul",
+                "Bantul",
+                "Kulon Progo"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Jawa Timur",
+            "district": [
+                "Batu",
+                "Surabaya",
+                "Madiun",
+                "Mojokerto",
+                "Pasuruan",
+                "Probolinggo",
+                "Malang",
+                "Blitar",
+                "Kediri",
+                "Sumenep",
+                "Pamekasan",
+                "Sampang",
+                "Bangkalan",
+                "Gresik",
+                "Lamongan",
+                "Tuban",
+                "Bojonegoro",
+                "Ngawi",
+                "Magetan",
+                "Madiun",
+                "Nganjuk",
+                "Jombang",
+                "Mojokerto",
+                "Sidoarjo",
+                "Pasuruan",
+                "Probolinggo",
+                "Situbondo",
+                "Bondowoso",
+                "Banyuwangi",
+                "Jember",
+                "Lumajang",
+                "Malang",
+                "Kediri",
+                "Blitar",
+                "Tulungagung",
+                "Trenggalek",
+                "Ponorogo",
+                "Pacitan"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Bali",
+            "district": [
+                "Denpasar",
+                "Buleleng",
+                "Karangasem",
+                "Bangli",
+                "Klungkung",
+                "Gianyar",
+                "Badung",
+                "Tabanan",
+                "Jembarana"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Banten",
+            "district": [
+                "Cilegon",
+                "Tangerang",
+                "Serang",
+                "Tangerang",
+                "Lebak",
+                "Pandeglang"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "NTB",
+            "district": [
+                "Bima",
+                "Mataram",
+                "Sumbawa Barat",
+                "Bima",
+                "Dompu",
+                "Sumbawa ",
+                "Lombok Timur",
+                "Lombok Tengah",
+                "Lombok Barat"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "NTT",
+            "district": [
+                "Kupang",
+                "Manggarai Barat",
+                "Rote Ndao",
+                "Lembata",
+                "Sumba Barat",
+                "Sumba Timur",
+                "Manggarai",
+                "Ngada",
+                "Ende",
+                "Sikka",
+                "Flores Timur",
+                "Alor",
+                "Belu",
+                "Timor Tengah Utara",
+                "Timor Tengah Selatan",
+                "Kupang"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kalimantan Barat",
+            "district": [
+                "Singkawang",
+                "Pontianak",
+                "Sekadau ",
+                "Melawi ",
+                "Landak",
+                "Bengkayang",
+                "Kapuas Hulu",
+                "Sintang ",
+                "Ketapang",
+                "Sanggau ",
+                "Pontianak",
+                "Sambas"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kalimantan Tengah",
+            "district": [
+                "Palangkaraya",
+                "Barito Timur",
+                "Murung Raya",
+                "Pulang Pisau",
+                "Gunung Mas",
+                "Lamandau",
+                "Sukamara",
+                "Seruyan",
+                "Katingin",
+                "Barito Utara",
+                "Barito Selatan",
+                "Kapuas",
+                "Kotawaringin Timur",
+                "Kotawaringin Barat"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kalimantan Selatan",
+            "district": [
+                "Banjarbaru",
+                "Banjarmasin",
+                "Balangan",
+                "Tanah Bambu",
+                "Tabalong",
+                "Hulu Sungai Utara",
+                "Hulu Sungai Tengah",
+                "Hulu Sungai Selatan",
+                "Tapin",
+                "Barito Kuala",
+                "Banjar",
+                "Kotabaru",
+                "Tanah Laut"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Kalimantan Timur",
+            "district": [
+                "Bontang",
+                "Tarakan",
+                "Samarinda",
+                "Balikpapan",
+                "Penajam Paser Utara",
+                "Kutai Timur",
+                "Kutai Barat",
+                "Malinau",
+                "Nunukan",
+                "Bulungan",
+                "Berau",
+                "Kutai Kertanegara",
+                "Pasir"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sulawesi Utara",
+            "district": [
+                "Tomohon",
+                "Bitung",
+                "Manado",
+                "Minahasa Utara",
+                "Minahasa Selatan",
+                "Kepulauan Talaud",
+                "Kepulauan Sangihe",
+                "Minahasa ",
+                "Bolaang Mangondow"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sulawesi Selatan",
+            "district": [
+                "Palopo",
+                "Pare Pare",
+                "Makasar",
+                "Luwu Timur",
+                "Luwu Utara",
+                "Tana Toraja",
+                "Luwu",
+                "Enrekang",
+                "Pinrang",
+                "Sidenreng Rapang",
+                "Wajo",
+                "Soppeng",
+                "Barru",
+                "Pangkajene Kep.",
+                "Maros",
+                "Bone",
+                "Sinjai",
+                "Gowa",
+                "Takalar",
+                "Jeneponto.",
+                "Bantaeng",
+                "Bulukumba",
+                "Selayar"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sulawesi Tenggara",
+            "district": [
+                "Bau Bau",
+                "Kendari",
+                "Kolaka Utara",
+                "Wakatobi",
+                "Bombana",
+                "Konawe Selatan",
+                "Buton",
+                "Muna",
+                "Konawe",
+                "Kolaka"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Gorontalo",
+            "district": [
+                "Gorontalo",
+                "Pohuwato",
+                "Bone Bolango",
+                "Boalemo",
+                "Gorontalo",
+                "Gorontalo Utara"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Sulawesi Barat",
+            "district": [
+                "Majene",
+                "Polowali Mamasa",
+                "Mamasa",
+                "Mamuju",
+                "Mamuju Utara"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Maluku",
+            "district": [
+                "Ambon",
+                "Kepulauan Aru",
+                "Seram Bagian Barat",
+                "Seram Bagian Timur",
+                "Buru",
+                "Maluku Tenggara Barat",
+                "Maluku Tenggara",
+                "Maluku Tengah"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Maluku Utara",
+            "district": [
+                "Tidore Kepulauan",
+                "Ternate",
+                "Halmahera Timur",
+                "Kepulauan Sula",
+                "Halmahera Selatan",
+                "Halmahera Utara",
+                "Halmahera Tengah",
+                "Halmahera Barat"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Papua",
+            "district": [
+                "Jayapura",
+                "Supiori",
+                "Asmat",
+                "Mappi",
+                "Boven Digoel",
+                "Waropen",
+                "Tolikara",
+                "Yahukimo",
+                "Pegunungan Bintang",
+                "Keerom",
+                "Sarmi",
+                "Mimika",
+                "Paniai",
+                "Puncak Jaya",
+                "Biak Numfor",
+                "Yapen Waropen",
+                "Nabire",
+                "Jayapura",
+                "Jayawijaya",
+                "Merauke"
+           ]
+        }
+    },
+    {
+        "data":{
+            "province": "Papua Barat",
+            "district": [
+                "Sorong",
+                "Kaima",
+                "Teluk Wondama",
+                "Teluk Bentuni",
+                "Raja Ampat",
+                "Sorong Selatan",
+                "Fak Fak",
+                "Manokwari",
+                "Sorong"
+           ]
+        }
+    }
+]

@@ -32,10 +32,22 @@
   .button-primary {
     @apply bg-blue-500 hover:bg-blue-600;
     @apply duration-300;
-    @apply py-4 px-6;
+    @apply py-3 px-6;
     @apply text-white;
     @apply rounded-sm;
     @apply inline-block;
+  }
+
+  .input-primary {
+    @apply block w-full;
+    @apply py-3 px-6;
+    @apply rounded-md;
+    @apply border border-gray-200 hover:border-blue-500 focus:border-blue-500 duration-300 outline-none;
+  }
+
+  .label {
+    @apply block;
+    @apply mb-1;
   }
 }
 
@@ -54,7 +66,7 @@
     }
 
     .left-unset {
-      right: unset;
+      left: unset;
     }
   }
 }
