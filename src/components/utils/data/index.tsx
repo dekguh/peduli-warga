@@ -1,6 +1,10 @@
 import LogoOrganization from '../../../images/logo/organization-1.svg'
 import dataIndonesiaJSON from './indonesia.json'
 
+import LogoRsSukaMiskin from '../../../images/vaksinasi/rs-suka-miskin.svg'
+import LogoBadung from '../../../images/vaksinasi/logo-badung.png'
+import LogoDenpasar from '../../../images/vaksinasi/logo-kota-denpasar.jpg'
+import LogoPuskesmas from '../../../images/vaksinasi/logo-puskesmas.png'
 
 export type IWebInfo = {
     title: string;
@@ -40,8 +44,18 @@ export type TDataQuickLink = Array<{
     url: string;
 }>
 
-export type TGetListProvince = () => Array<{}>
-export type TGetListDistrict = (province?: string) => Array<string>
+export type TDataVaksinasiLocation = Array<{
+    name: string;
+    province: string;
+    district: string;
+    lang: number;
+    long: number;
+    description: string;
+    quote: number;
+    date: string;
+    time: string;
+    logo: string;
+}>
 
 export const webInfo: IWebInfo = {
     title: 'Peduli Warga',
@@ -227,12 +241,111 @@ export const dataQuickLink: TDataQuickLink = [
     }
 ]
 
-export function getListProvince<TGetListProvince>() {
+export function getListProvince() : Array<string> {
     const list = dataIndonesiaJSON.map(data => data.data.province)
     return list
 }
 
-export function getListDistrict<TGetListDistrict>(province?: string) {
+export function getListDistrict(province?: string) : Array<string> | undefined {
     const list = dataIndonesiaJSON.find(data => data.data.province.toLowerCase() === province?.toLowerCase())
     return list?.data.district
 }
+
+export const dataVaksinasiLocation: TDataVaksinasiLocation = [
+    {
+        name: 'RS. Suka Miskin',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.792072,
+        long: 115.216641,
+        description: 'tempat vaksinasi gratis untuk rakyat berlokasi di jalan bypass ngurah rai nusa dua',
+        quote: 200,
+        date: '26/9/2021',
+        time: '09.00 Wita',
+        logo: LogoRsSukaMiskin
+    },
+    {
+        name: 'Puskesmas Kuta Selatan',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.803307,
+        long: 115.222980,
+        description: 'tempat vaksinasi gratis untuk rakyat berlokasi di jalan srikandi, kuta selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Desa Kutuh',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.828867,
+        long: 115.175001,
+        description: 'tempat vaksinasi gratis berlokasi di jalan dharmawangsa, kuta selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Jimbaran',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.771032,
+        long: 115.174119,
+        description: 'tempat vaksinasi gratis berlokasi di jalan ulun suwi, kuta selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Ungasan',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.827131,
+        long: 115.165855,
+        description: 'tempat vaksinasi gratis berlokasi di jalan bali cliff, kuta selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas 1 Denpasar Selatan',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.704514,
+        long: 115.217940,
+        description: 'tempat vaksinasi gratis berlokasi di jalan pulau moyo, denpasar selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Sidakarya',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.703288,
+        long: 115.234225,
+        description: 'tempat vaksinasi gratis berlokasi di jl. kertha winangun, denpasar selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Panjer',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.683851,
+        long: 115.226237,
+        description: 'tempat vaksinasi gratis berlokasi di jl. tukad pakerisan, denpasar selatan',
+        quote: 100,
+        date: '29/9/2021',
+        time: '09.00 Wita',
+        logo: LogoPuskesmas
+    }
+]
