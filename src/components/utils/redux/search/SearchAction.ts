@@ -6,6 +6,9 @@ export const UPDATE_SEARCH_DONATION_DISTRICT = 'UPDATE_SEARCH_DONATION_DISTRICT'
 export const UPDATE_SEARCH_VAKSINASI_PROVINCE = 'UPDATE_SEARCH_VAKSINASI_PROVINCE'
 export const UPDATE_SEARCH_VAKSINASI_DISTRICT = 'UPDATE_SEARCH_VAKSINASI_DISTRICT'
 
+export const UPDATE_SEARCH_CEKCOVID_PROVINCE = 'UPDATE_SEARCH_CEKCOVID_PROVINCE'
+export const UPDATE_SEARCH_CEKCOVID_DISTRICT = 'UPDATE_SEARCH_CEKCOVID_DISTRICT'
+
 export function updateDonationSearchProvince (search: string) : TAction {
     return {
         type: UPDATE_SEARCH_DONATION_PROVINCE,
@@ -30,6 +33,20 @@ export function updateVaksinasiSearchProvince (search: string) : TAction {
 export function updateVaksinasiSearchDistrict (search: string) : TAction {
     return {
         type: UPDATE_SEARCH_VAKSINASI_DISTRICT,
+        payload: search
+    }
+}
+
+export function updateCekCovidSearchProvince (search: string) : TAction {
+    return {
+        type: UPDATE_SEARCH_CEKCOVID_PROVINCE,
+        payload: search
+    }
+}
+
+export function updateCekCovidSearchDistrict (search: string) : TAction {
+    return {
+        type: UPDATE_SEARCH_CEKCOVID_DISTRICT,
         payload: search
     }
 }

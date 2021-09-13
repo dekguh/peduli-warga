@@ -57,6 +57,18 @@ export type TDataVaksinasiLocation = Array<{
     logo: string;
 }>
 
+export type TDataCekCovidLocation = Array<{
+    name: string;
+    province: string;
+    district: string;
+    lang: number;
+    long: number;
+    description: string;
+    time: string;
+    service: string;
+    logo: string;
+}>
+
 export const webInfo: IWebInfo = {
     title: 'Peduli Warga',
     phone: '(0361) 123456',
@@ -346,6 +358,97 @@ export const dataVaksinasiLocation: TDataVaksinasiLocation = [
         quote: 100,
         date: '29/9/2021',
         time: '09.00 Wita',
+        logo: LogoPuskesmas
+    }
+]
+
+export const dataCekCovidLocation: TDataCekCovidLocation = [
+    {
+        name: 'RS. Suka Miskin',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.792072,
+        long: 115.216641,
+        description: 'berlokasi di jalan bypass ngurah rai nusa dua (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoRsSukaMiskin
+    },
+    {
+        name: 'Puskesmas Kuta Selatan',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.803307,
+        long: 115.222980,
+        description: 'berlokasi di jalan srikandi, kuta selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Desa Kutuh',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.828867,
+        long: 115.175001,
+        description: 'berlokasi di jalan dharmawangsa, kuta selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Jimbaran',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.771032,
+        long: 115.174119,
+        description: 'berlokasi di jalan ulun suwi, kuta selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Ungasan',
+        province: 'bali',
+        district: 'badung',
+        lang: -8.827131,
+        long: 115.165855,
+        description: 'berlokasi di jalan bali cliff, kuta selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas 1 Denpasar Selatan',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.704514,
+        long: 115.217940,
+        description: 'berlokasi di jalan pulau moyo, denpasar selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Sidakarya',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.703288,
+        long: 115.234225,
+        description: 'berlokasi di jl. kertha winangun, denpasar selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
+        logo: LogoPuskesmas
+    },
+    {
+        name: 'Puskesmas Panjer',
+        province: 'bali',
+        district: 'denpasar',
+        lang: -8.683851,
+        long: 115.226237,
+        description: 'berlokasi di jl. tukad pakerisan, denpasar selatan (rapid test & antigen)',
+        time: '09.00 Wita - 18.00 wita',
+        service: 'swab antigen dan rapid test',
         logo: LogoPuskesmas
     }
 ]
