@@ -20,7 +20,7 @@ const BoxCounter: React.FC<Props> = ({ number, duration, title }) => {
 
             <span className='block text-blue-500'>{title}</span>
         </div>
-        <img src={iconWaveCurved} className='w-16 absolute top-1 z-0 -left-4' />
+        <img src={iconWaveCurved} className='w-16 absolute top-1 z-0 -left-4' alt='wave curved' />
     </div>
     )
 }

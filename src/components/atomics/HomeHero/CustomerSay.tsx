@@ -15,7 +15,7 @@ const CustomerSay: React.FC<Props> = ({ src, name, totalRated }) => {
                 <div className='flex-grow-0 flex-shrink pr-3'>
                     <img
                         src={src}
-                        alt='customer photo'
+                        alt='customer'
                         className='w-16'
                     />
                 </div>

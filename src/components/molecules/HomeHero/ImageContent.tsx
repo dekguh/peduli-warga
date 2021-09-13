@@ -9,7 +9,7 @@ const ImageContent: React.FC = () => {
         <div className='relative'>
             <img
                 src={HeroImg}
-                alt="home hero image"
+                alt="home hero"
                 className='w-full max-w-550px mx-auto'
             />
 

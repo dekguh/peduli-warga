@@ -10,7 +10,7 @@ const ContentDetail: React.FC = () => {
             <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconMasker}
-                    alt='icon masker'
+                    alt='masker'
                     title='Memakai Masker'
                     description='Patuthi protokol kesehatan dengan selalu memakai masker kemana saja'
                 />
@@ -19,7 +19,7 @@ const ContentDetail: React.FC = () => {
             <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconCuciTangan}
-                    alt='icon cuci tangan'
+                    alt='cuci tangan'
                     title='Cuci Tangan'
                     description='Selalu mencuci tangan dengan sabun dan air yang mengalir'
                 />
@@ -28,7 +28,7 @@ const ContentDetail: React.FC = () => {
             <div className='flex-grow lg:flex-grow-0 flex-shrink py-3 lg:py-8 px-5 w-full lg:w-4/12'>
                 <ProkesBox
                     src={IconKerumunan}
-                    alt='icon kerumunan'
+                    alt='kerumunan'
                     title='Jaga Jarak'
                     description='Selalu menjaga jarak minimal 1 meter serta menghindari kerumunan'
                 />
