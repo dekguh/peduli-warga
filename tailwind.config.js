@@ -21,6 +21,9 @@ module.exports = {
       minWidth: {
         '120px': '120px'
       },
+      width: {
+        '310px': '310px'
+      },
       boxShadow: {
         primary: '0 0 8px rgba(0, 0, 0, 0.07)'
       },

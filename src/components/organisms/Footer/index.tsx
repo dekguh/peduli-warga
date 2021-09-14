@@ -1,8 +1,12 @@
 import React from 'react'
+import ChatContainer from '../../molecules/Contact/ChatContainer'
 import ListQuickLink from '../../molecules/Footer/ListQuickLink'
 
 const Footer: React.FC = () => {
     return (
+    <>
+        <ChatContainer />
+
         <div className='container mx-auto'>
             <div className='border-t border-gray-200 py-5'>
                 <div className='flex flex-col lg:flex-row flex-nowrap items-center'>
@@ -16,6 +20,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </div>
+    </>
     )
 }
 

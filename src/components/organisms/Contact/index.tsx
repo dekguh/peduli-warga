@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className='mt-20'>
-            <Map containerClass='w-full h-80'>
+            <Map containerClass='w-full h-80 relative z-10'>
                 <MarkerCustom
                     coordinate={[-8.792560, 115.215075]}
                 ></MarkerCustom>
