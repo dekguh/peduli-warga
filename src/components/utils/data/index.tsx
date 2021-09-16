@@ -6,6 +6,11 @@ import LogoBadung from '../../../images/vaksinasi/logo-badung.png'
 import LogoDenpasar from '../../../images/vaksinasi/logo-kota-denpasar.jpg'
 import LogoPuskesmas from '../../../images/vaksinasi/logo-puskesmas.png'
 
+import CustomerPhoto from '../../../images/circle-shape-portrait-of-young-female-lawyer-at-her-workplace-BSULBPN.png'
+import CustomerPhoto2 from '../../../images/circle-shape-attractive-woman-with-a-bouquet-of-red-tulips-the-BZ8SG5G.png'
+import CustomerPhoto3 from '../../../images/woman-PVSYN4X.png'
+import CustomerPhoto4 from '../../../images/young-woman-6BUWQLR.png'
+
 export type IWebInfo = {
     title: string;
     phone: string;
@@ -253,6 +258,15 @@ export const dataQuickLink: TDataQuickLink = [
     }
 ]
 
+export type TDataTestimonial = Array<{
+    id: number;
+    name: string;
+    position: string;
+    photo: string;
+    totalStar: number;
+    message: string;
+}>
+
 export function getListProvince() : Array<string> {
     const list = dataIndonesiaJSON.map(data => data.data.province)
     return list
@@ -450,5 +464,40 @@ export const dataCekCovidLocation: TDataCekCovidLocation = [
         time: '09.00 Wita - 18.00 wita',
         service: 'swab antigen dan rapid test',
         logo: LogoPuskesmas
+    }
+]
+
+export const dataTestimonial: TDataTestimonial = [
+    {
+        id: 1,
+        name: 'Alexia Sandra Putri',
+        position: 'staff hotel',
+        photo: CustomerPhoto,
+        totalStar: 5,
+        message: 'platform ini membantu mendapatkan informasi tempat vaksin dengan mudah',
+    },
+    {
+        id: 2,
+        name: 'Clara Meiranda',
+        position: 'house keeping',
+        photo: CustomerPhoto2,
+        totalStar: 4,
+        message: 'saya mendapatkan informasi donasi dengan sangat detail dan mudah dipahami',
+    },
+    {
+        id: 3,
+        name: 'Arina Syiffani',
+        position: 'digital marketer',
+        photo: CustomerPhoto3,
+        totalStar: 5,
+        message: 'desain dari website ini sangat keren dan bisa diakses melalui iphone 12 saya',
+    },
+    {
+        id: 4,
+        name: 'Ginanti Tan',
+        position: 'web designer',
+        photo: CustomerPhoto4,
+        totalStar: 5,
+        message: 'website ini sangat membantu banyak masyarakat dalam membagikan informasi',
     }
 ]

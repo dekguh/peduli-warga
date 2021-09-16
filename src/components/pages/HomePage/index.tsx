@@ -6,6 +6,7 @@ import HomeHero from '../../organisms/HomeHero'
 import StepProkes from '../../organisms/StepProkes'
 import { Helmet } from 'react-helmet'
 import { webInfo } from '../../utils/data'
+import Testimonial from '../../organisms/Testimonial'
 
 const HomePage: React.FC = () => {
     return (
@@ -20,6 +21,10 @@ const HomePage: React.FC = () => {
             </div>
 
             <div className='mt-20'>
+                <Donation />
+            </div>
+
+            <div className='mt-20'>
                 <StepProkes />
             </div>
 
@@ -28,7 +33,7 @@ const HomePage: React.FC = () => {
             </div>
 
             <div className='mt-20'>
-                <Donation />
+                <Testimonial />
             </div>
         </>
     )

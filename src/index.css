@@ -49,6 +49,14 @@
     @apply block;
     @apply mb-1;
   }
+
+  .react-multi-carousel-dot button {
+    @apply border border-gray-300 !important;
+  }
+
+  .react-multi-carousel-dot--active button {
+    @apply bg-blue-500 !important;
+  }
 }
 
 @layer utilities {
