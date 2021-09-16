@@ -14,7 +14,7 @@ const DetailContent: React.FC = () => {
                 <li className='flex-grow md:flex-grow-0 flex-shrink px-5 md:px-0 md:pr-5 sm:w-6/12 md:w-3/12 mb-5 md:mb-0'>
                     <ServiceBoxSmall
                         title='Tes Covid'
-                        url='#'
+                        url='/cek-covid'
                         alt='icon tes covid'
                         src={IconPemeriksaan}
                     />
@@ -23,7 +23,7 @@ const DetailContent: React.FC = () => {
                 <li className='flex-grow md:flex-grow-0 flex-shrink px-5 md:px-0 md:pr-5 sm:w-6/12 md:w-3/12 mb-5 md:mb-0'>
                     <ServiceBoxSmall
                         title='Donasi'
-                        url='#'
+                        url='/donasi'
                         alt='icon donasi'
                         src={IconDonasi}
                     />
@@ -32,7 +32,7 @@ const DetailContent: React.FC = () => {
                 <li className='flex-grow md:flex-grow-0 flex-shrink px-5 md:px-0 md:pr-5 sm:w-6/12 md:w-3/12 mb-5 md:mb-0'>
                     <ServiceBoxSmall
                         title='Vaksinasi'
-                        url='#'
+                        url='/vaksinasi'
                         alt='icon vaksinasi'
                         src={IconVaksinasi}
                     />

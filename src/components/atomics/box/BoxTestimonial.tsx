@@ -28,7 +28,7 @@ const BoxTestimonial: React.FC<Props> = ({ name, message, photo, totalStar, posi
 
                 <div className='flex-grow flex-shrink pt-4 lg:pt-0 lg:pl-4 text-center lg:text-left'>
                     <h5 className='font-semibold'>{name}</h5>
-                    <span className='mb-2 text-sm text-blue-500'>{position}</span>
+                    <span className='mb-2 text-sm text-blue-500 block'>{position}</span>
                     <p className='italic text-gray-500'>
                         "{message}"
                     </p>

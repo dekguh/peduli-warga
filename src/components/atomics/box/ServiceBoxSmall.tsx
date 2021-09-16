@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 interface Props {
     src: string;
@@ -17,9 +18,11 @@ const ServiceBoxSmall: React.FC<Props> = ({ src, url, title, alt }) => {
             />
 
             <div className='mt-2'>
-                <a href={url} className='hover:text-blue-500'>
-                    {title}
-                </a>
+                <span className='hover:text-blue-500 duration-300'>
+                    <Link to={url}>
+                        {title}
+                    </Link>
+                </span>
             </div>
         </div>
     )
