@@ -4,7 +4,7 @@ import DonationContentPage from '../../organisms/Donation/DonationContentPage'
 import JoinVolunteer from '../../organisms/Donation/JoinVolunteer'
 import { webInfo } from '../../utils/data'
 
-const DonationPage = () => {
+const DonationPage: React.FC = () => {
     return (
         <>
             <Helmet>
