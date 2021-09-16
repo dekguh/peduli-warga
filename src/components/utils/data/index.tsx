@@ -246,15 +246,15 @@ export const dataDonationLocation: IDataDonationLocation = [
 export const dataQuickLink: TDataQuickLink = [
     {
         text: 'Tes Covid',
-        url: '#'
+        url: './cek-covid'
     },
     {
         text: 'Donasi',
-        url: '#'
+        url: './donasi'
     },
     {
         text: 'Vaksinasi',
-        url: '#'
+        url: './vaksinasi'
     }
 ]
 
