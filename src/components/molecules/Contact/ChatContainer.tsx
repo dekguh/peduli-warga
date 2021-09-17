@@ -8,7 +8,7 @@ const ChatContainer: React.FC = () => {
     const [isChatBox, setIsChatBox] = useState<boolean>(false)
     return (
         <div className='fixed bottom-5 right-5 z-50 overflow-hidden inline-block'>
-            <div className={`relative ${isOpen ? 'right-0 w-auto opacity-100' : 'w-0 opacity-0 hidden'} duration-1000`}>
+            <div className={`${isOpen ? 'fixed right-5 bottom-20 opacity-100' : 'fixed -right-96 bottom-20 opacity-0'} duration-1000`}>
                 {isChatBox
                 ? (<BoxChatForm
                     nameSupport='Amanda Tan'
