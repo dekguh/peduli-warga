@@ -2,6 +2,7 @@ import React from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Footer from '../../organisms/Footer'
 import MenuNav from '../../organisms/MenuNav'
+import AboutPage from '../../pages/AboutPage'
 import CekCovidPage from '../../pages/CekCovidPage'
 import ContactPage from '../../pages/ContactPage'
 import DonationPage from '../../pages/DonationPage'
@@ -19,6 +20,7 @@ const Routing: React.FC = () => {
                 <Route path='/donasi' component={DonationPage} />
                 <Route path='/vaksinasi' component={VaksinasiPage} />
                 <Route path='/cek-covid' component={CekCovidPage} />
+                <Route path='/about' component={AboutPage} />
             </Switch>
 
             <div className='mt-20'>

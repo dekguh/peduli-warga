@@ -22,7 +22,8 @@ module.exports = {
         '120px': '120px'
       },
       width: {
-        '310px': '310px'
+        '310px': '310px',
+        '2px': '2px'
       },
       boxShadow: {
         primary: '0 0 8px rgba(0, 0, 0, 0.07)'

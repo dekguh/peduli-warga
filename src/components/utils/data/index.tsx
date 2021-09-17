@@ -28,7 +28,6 @@ export type IDataMenuNav = Array<{
     text: string;
     url: string;
     path: string;
-    active: boolean;
 }>
 
 export type IDataDonationLocation = Array<{
@@ -91,32 +90,32 @@ export const dataMenuNav: IDataMenuNav = [
     {
         text: 'Beranda',
         url: '/',
-        path: '/',
-        active: false,
+        path: '/'
+    },
+    {
+        text: 'Tentang Kami',
+        url: '/about',
+        path: 'about'
     },
     {
         text: 'Cek Covid',
         url: '/cek-covid',
-        path: 'cek-covid',
-        active: false,
+        path: 'cek-covid'
     },
     {
         text: 'Vaksinasi',
         url: '/vaksinasi',
-        path: 'vaksinasi',
-        active: false,
+        path: 'vaksinasi'
     },
     {
         text: 'Donasi',
         url: '/donasi',
-        path: 'donasi',
-        active: false,
+        path: 'donasi'
     },
     {
         text: 'Kontak Kami',
         url: '/kontak',
-        path: 'kontak',
-        active: false,
+        path: 'kontak'
     }
 ]
 
