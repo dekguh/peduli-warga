@@ -6,7 +6,7 @@ import { IoMdPaper } from 'react-icons/io'
 
 const ContentDetail: React.FC = () => {
     return (
-        <div className='pl-6'>
+        <div className='lg:pl-6'>
             <TitleSection
                 subtitle='Kenal kami lebih dekat'
                 title='Tentang Kami'

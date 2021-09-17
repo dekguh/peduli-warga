@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiChevronsRight } from 'react-icons/fi'
+import { FaTimes } from 'react-icons/fa'
 
 interface Props {
     nameSupport: string;
@@ -24,7 +24,7 @@ const BoxEnterChat: React.FC<Props> = ({ nameSupport, isOnline, clickMinimize, c
                     <div className='flex-grow-0 flex-shrink'>
                         <button onClick={clickMinimize} className='p-0 border border-white py-1 px-1 rounded-sm text-white'>
                             <i>
-                                <FiChevronsRight />
+                                <FaTimes />
                             </i>
                         </button>
                     </div>

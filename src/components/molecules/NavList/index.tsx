@@ -44,7 +44,7 @@ const NavList: React.FC<Props> = ({ openStatus, handleOpenClick }) => {
                 <h6 className='mb-2'>Kantor Resmi</h6>
                 <iframe
                     title='map'
-                    className='border-0 w-full h-44 mb-8'
+                    className='border-0 w-full h-32 mb-8'
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15771.62322693972!2d115.18799998291418!3d-8.79491973752343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c6d5ad1f8f%3A0x90084d463fef4045!2sSouth%20Kuta%2C%20Badung%20Regency%2C%20Bali!5e0!3m2!1sen!2sid!4v1630814419045!5m2!1sen!2sid">
                 </iframe>
 

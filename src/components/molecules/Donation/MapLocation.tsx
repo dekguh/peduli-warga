@@ -7,7 +7,7 @@ import { dataDonationLocation } from '../../utils/data'
 const MapLocation: React.FC = () => {
     return (
         <div>
-            <Map containerClass='rounded-md w-full h-64'>
+            <Map containerClass='rounded-md w-full h-64 relative z-10'>
                 {dataDonationLocation && dataDonationLocation.map((data, i) => (
                     <MarkerCustom key={i} coordinate={[data.lang, data.long]}>
                         <Popup>

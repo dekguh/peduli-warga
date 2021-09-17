@@ -1,5 +1,6 @@
 import React from 'react'
-import { FiChevronsRight, FiNavigation } from 'react-icons/fi'
+import { FiNavigation } from 'react-icons/fi'
+import { FaTimes } from 'react-icons/fa'
 
 interface PropsItem {
     name: string;
@@ -26,7 +27,7 @@ interface BoxChatProps {
 
 const BoxChatForm: React.FC<BoxChatProps> = ({ nameSupport, isOnline, clickMinimize }) => {
     return (
-        <div className='shadow-primary bg-white rounded-md w-310px border border-gray-100 relative'>
+        <div className='shadow-primary bg-white rounded-md w-310px border border-gray-100 relative z-50'>
             <div className='bg-blue-500 py-3 px-5 rounded-t-md'>
                 <div className='flex flex-row flex-nowrap items-center'>
                     <div className='flex-grow flex-shrink'>
@@ -40,7 +41,7 @@ const BoxChatForm: React.FC<BoxChatProps> = ({ nameSupport, isOnline, clickMinim
                     <div className='flex-grow-0 flex-shrink'>
                         <button onClick={clickMinimize} className='p-0 border border-white py-1 px-1 rounded-sm text-white'>
                             <i>
-                                <FiChevronsRight />
+                                <FaTimes />
                             </i>
                         </button>
                     </div>

@@ -98,7 +98,7 @@ const MenuNav: React.FC = () => {
                             <div className='text-right block lg:hidden'>
                                 <button
                                     onClick={e => handleClickOpen(true)}
-                                    className='border border-blue-500 py-3 px-4 rounded-sm text-blue-500 hover:bg-blue-500 hover:text-white duration-300'
+                                    className='border border-blue-500 py-3 px-4 rounded-sm text-blue-500 hover:bg-blue-500 hover:text-white duration-300 relative z-50'
                                 >
                                     <i>
                                         <VscThreeBars />

@@ -25,6 +25,9 @@ module.exports = {
         '310px': '310px',
         '2px': '2px'
       },
+      zIndex: {
+        '60': 60
+      },
       boxShadow: {
         primary: '0 0 8px rgba(0, 0, 0, 0.07)'
       },
