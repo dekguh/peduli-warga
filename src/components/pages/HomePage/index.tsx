@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
 
             <HomeHero />
             <div className='bg-blue-100 py-20 mt-20'>
-                <About />
+                <About isButtonRedirect={true} />
             </div>
 
             <div className='mt-20'>

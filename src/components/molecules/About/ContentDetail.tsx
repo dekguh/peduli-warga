@@ -3,8 +3,12 @@ import BoxBenefit from '../../atomics/box/BoxBenefit'
 import TitleSection from '../../atomics/text/TitleSection'
 import { AiOutlineLaptop } from 'react-icons/ai'
 import { IoMdPaper } from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
-const ContentDetail: React.FC = () => {
+interface Props {
+    isButtonRedirect: boolean;
+}
+const ContentDetail: React.FC<Props> = ({ isButtonRedirect }) => {
     return (
         <div className='lg:pl-6'>
             <TitleSection
@@ -37,7 +41,11 @@ const ContentDetail: React.FC = () => {
                     </div>
                 </div>
 
-                <a href='#' className='button-primary'>Lebih Detail</a>
+                {isButtonRedirect && (<Link to='/about'>
+                    <button className='button-primary'>
+                        Lebih Jelas
+                    </button>
+                </Link>)}
             </div>
         </div>
     )

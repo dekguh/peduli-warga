@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
             </Helmet>
 
             <div className='mt-40'>
-                <About />
+                <About isButtonRedirect={false} />
             </div>
 
             <div className='mt-20 lg:mt-40'>
