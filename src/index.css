@@ -54,7 +54,8 @@
     @apply border border-gray-300 !important;
   }
 
-  .react-multi-carousel-dot--active button {
+  .react-multi-carousel-dot--active button,
+  .react-multi-carousel-dot button:hover:active {
     @apply bg-blue-500 !important;
   }
 }

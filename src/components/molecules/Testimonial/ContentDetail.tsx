@@ -28,7 +28,7 @@ const ContentDetail: React.FC = () => {
                 autoPlaySpeed={5000}
                 arrows={false}
                 itemClass='px-3 pt-5 pb-7'
-                showDots={true}
+                showDots={false}
             >
                 {dataTestimonial && dataTestimonial.map(data => (
                     <div key={data.id}>

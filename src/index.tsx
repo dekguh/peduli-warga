@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import 'react-multi-carousel/lib/styles.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import 'leaflet/dist/leaflet.css'
 import { Provider } from 'react-redux'
 import Store from './components/utils/redux/Store'
+import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
