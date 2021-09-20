@@ -6,6 +6,8 @@ import VaksinasiFilter from '../../molecules/Vaksinasi/VaksinasiFilter'
 import VaksinasiLocationMap from '../../molecules/Vaksinasi/VaksinasiLocationMap'
 import { dataVaksinasiLocation, TDataVaksinasiLocation } from '../../utils/data'
 import { RootState } from '../../utils/redux/Store'
+import ImageSearchNotFound from '../../../images/search-not-found.png'
+import BoxSearchMessage from '../../atomics/box/BoxSearchMessage'
 
 const mapStateToProps = (state: RootState) => {
     return {
@@ -62,6 +64,11 @@ const VaksinasiContentPage: React.FC<Props> = ({ searchProvince, searchDistrict 
                                     />
                                 </div>
                             ))}
+
+                            {dataList.length <= 0 && (<BoxSearchMessage
+                                image={ImageSearchNotFound}
+                                message='tidak ditemukan'
+                            />)}
                         </div>
                     </div>
                 </div>

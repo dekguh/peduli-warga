@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { FiChevronsLeft, FiChevronsRight } from 'react-icons/fi'
 import { connect, ConnectedProps } from 'react-redux'
 import BoxDonation from '../../atomics/box/BoxDonation'
+import BoxSearchMesage from '../../atomics/box/BoxSearchMessage'
 import CekCovidFilter from '../../molecules/CekCovid/CekCovidFilter'
 import CekCovidMap from '../../molecules/CekCovid/CekCovidMap'
 import { dataCekCovidLocation, TDataCekCovidLocation } from '../../utils/data'
 import { RootState } from '../../utils/redux/Store'
+import ImageSearchNotFound from '../../../images/search-not-found.png'
 
 const mapStateToProps = (state: RootState) => {
     return {
@@ -61,6 +63,11 @@ const CekCovidContentPage: React.FC<Props> = ({ searchProvince, searchDistrict }
                             />
                         </div>
                     ))}
+
+                    {dataList.length <= 0 && (<BoxSearchMesage
+                        image={ImageSearchNotFound}
+                        message='tidak ditemukan'
+                    />)}
                     </div>
                 </div>
             </div>

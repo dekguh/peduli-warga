@@ -6,6 +6,8 @@ import MapLocationPage from '../../molecules/Donation/MapLocationPage'
 import { dataDonationLocation, IDataDonationLocation } from '../../utils/data'
 import { RootState } from '../../utils/redux/Store'
 import { FiChevronsLeft, FiChevronsRight } from 'react-icons/fi'
+import BoxSearchMessage from '../../atomics/box/BoxSearchMessage'
+import ImageSearchNotFound from '../../../images/search-not-found.png'
 
 const mapStateToProps = (state: RootState) => {
     return {
@@ -61,6 +63,11 @@ const DonationContentPage: React.FC<Props> = ({ searchProvince, searchDistrict }
                             />
                         </div>
                     ))}
+
+                    {dataList.length <= 0 && (<BoxSearchMessage
+                        image={ImageSearchNotFound}
+                        message='tidak ditemukan'
+                    />)}
                     </div>
                 </div>
             </div>
